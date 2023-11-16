@@ -1,0 +1,22 @@
+{
+  "name": "node-helm-binding",
+  "version": "0.0.1",
+  "description": "A NodeJS / Typescript wrapper for Helm and Helmfile",
+  "main": "index.js",
+  "type": "module",
+  "repository": "https://github.com/CedricKassen/node-helm-binding",
+  "author": "Cedric Kassen <ced.kassen@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "compile": "tsc -p tsconfig.json",
+    "lint": "eslint 'src/**/*.{ts}'",
+    "format": "prettier --write -c ./prettier.config.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.53.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "prettier": "^3.1.0",
+    "typescript": "^5.2.2"
+  }
+}
